@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+ <meta charset="UTF-8">
+ <title>Thanh toán - Ecommerce Shop</title>
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <header>
+ <h1>Ecommerce Shop</h1>
+ <nav>
+ <a href="index.html">Trang chủ</a>
+ <a href="cart.html">Giỏ hàng</a>
+ <a href="checkout.html">Thanh toán</a>
+ </nav>
+ </header>
+ <main>
+ <h2>Thanh toán</h2>
+ <form id="checkout-form">
+ <div>
+ <label>Họ tên:</label>
+ <input type="text" name="fullname" required>
+ </div>
+ <div>
+ <label>Địa chỉ:</label>
+ <input type="text" name="address" required>
+ </div>
+ <div>
+ <label>Số điện thoại:</label>
+ <input type="tel" name="phone" required>
+ </div>
+ <div class="cart-total">
+ <strong>Tổng cộng: <span id="checkout-total">300.000đ</span></strong>
+ </div>
+ <button type="submit">Đặt hàng</button>
+ </form>
+ </main>
+ <footer>
+ <p>&copy; 2026 Ecommerce Shop</p>
+ </footer>
+ <script src="src/checkout.js"></script>
+</body>
+</html>
